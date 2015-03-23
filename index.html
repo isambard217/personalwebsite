@@ -1,0 +1,40 @@
+<?php 
+  // 1. Create a database connection
+  
+  $dbhost = "localhost";
+  $dbuser = "isambard";
+  $dbpass = "gnastrou";
+  $dbname = "personalwebsite";
+  $connection = mysqli_connect ($dbhost, $dbuser, $dbpass, $dbname);
+
+?>
+
+
+<!DOCTYPE html>
+
+
+<head>
+
+</head>
+
+<body>
+
+    <div id="login">
+
+    
+      <form action="index.php">
+     
+        name<input type="text" name="username" action="POST">
+        password <input type="password" name="password">
+        <input type ="submit" value="Submit">
+        
+      </form> 
+    
+    <div>
+
+
+
+
+</body>
+
+</html>
